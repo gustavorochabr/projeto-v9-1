@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <title>Projeto v9</title>
+        <link rel="stylesheet" type="text/css" href="cadastro.css" media="screen" />
+
+    </head>
+    <body>
+       <h1 style="text-align: center; margin-left: 230px;">Seja bem vindo(a) ao projeto v9!</h1>
+       <p>Um site acessível, onde você pode confiar na privacidade e segurança das suas informações!</p>
+       <p>Um site 100% brasileiro, feito por 2 empresas: JoyTech e Vyperium Company</p>
+       <img style="max-height: 300px; border-radius: 100%;" src="img/vyperium_logo.png"> <img style="margin-left: 10px; max-height: 300px; border-radius: 100%;" src="img/WhatsApp Image 2021-11-06 at 09.31.46.jpeg">
+       <p>Antes de usar a plataforma você vai ter que fazer um login ou se cadastrar no site!</p>
+       <div class="login">
+           <h2 style="text-align: center;">Formulário</h2>
+           <form onsubmit="saveData()">
+            <span>Nome de usuário:</span><input id="nome-usuario" type="text" maxlength="15"><br>
+            <span>E-mail:</span><input id="email" type='email'><br>
+            <input type="file" id="perfil">
+            <!--<span>Perfil:</span> <label style="background-color: blue; cursor: pointer;" for="perfil">escolha uma foto de perfil(pode deixar pra depois se quiser!)</label><br>-->
+            <span>Idade:</span> <input id="idd" type="number"><br>
+            <!--<span>Número de telefone:</span> <input id="telefone" type="tel"><br>-->
+          <input id="cadastrar" type="button" value="Cadastrar-se">
+          <input id="login" type="button" value="Fazer login">
+          </form>
+       </div>
+    </body>
+    <script src="js/cadastro.js"></script>
+</html>

@@ -1,0 +1,45 @@
+:root{
+
+    --cinza:#B0B3B8;
+
+    --borda:6px;
+    --azulClaro: #0095f6; 
+    --saturatiom-fator: 1;
+    --corBlack: #4f545c;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: var(--corBlack);
+    color:azure;
+    display: inline-block;
+  
+}
+
+h1{
+    text-align: center;
+}
+
+input[type='submit']{
+    background-color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    font-size: 30px;
+    cursor:pointer;
+    margin-top: 3px;
+}
+
+.login{
+    
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 300px;
+}
+
+input[type='file']{
+    display: none;
+}
+
