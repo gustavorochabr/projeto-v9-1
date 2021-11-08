@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(require("path").join(__dirname, "/public/")));
 
 app.get("/", async(req, res) => {
-  res.sendFile(__dirname+'/views/loading.html')
+  res.sendFile(__dirname+'/views/index.html')
 })
 
 const listener = server.listen(process.env.PORT, () => {
