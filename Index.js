@@ -2,9 +2,9 @@ const fs = require('fs');
 const express = require('express');
 const ejs = require('ejs');
 const html = require('html');
-const appEx = express();
+const app = express();
 const http = ('http');
-const server = http.createServer(appEx);
+const server = http.createServer(app);
 const session = require('express-session');
 const port = process.env.PORT || 3000;
 const coockieParser = require('coockie-parser');
@@ -20,7 +20,7 @@ const listener = server.listen(process.env.PORT, () => {
   console.log('Site rodando na porta:' + listener.adress().port);
 });
 
-const { app, BrowserWindow } = require('electron')
+const { appB, BrowserWindow } = require('electron')
 function criarJanela() {
     const janela = new BrowserWindow({
         width:800,
@@ -31,4 +31,4 @@ function criarJanela() {
     })
     janela.loadFile('index.html')
 }
-app.whenReady().then(criarJanela)
+appB.whenReady().then(criarJanela)
