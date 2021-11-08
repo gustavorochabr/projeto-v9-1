@@ -17,7 +17,7 @@ var body = document.getElementsByClassName('body')
 function darkMode() {
     var element = document.body;
     var content = document.getElementById("status-mode");
-    element.className = "dark-mode";xt = "Modo: Escuro"xt = "Modo: Escuro";
+    element.className = "dark-mode"; xt = "Modo: Escuro";
 }
 
 function lightMode() {
@@ -35,10 +35,9 @@ const buttonPersonalizado = document.getElementById('aset')
 
 function PersonalizarCor() {
     cons
-ntById('aset')
+ntById('aset');
 
-    buttonPersonalizfunction startLoading() {
+function startLoading() {
   let loadingBar = document.querySelector('.loadingBar');
-  loadingBar;')ado.style.backgroundColor='black';
+  loadingBar.setAttribute('id', 'play-animation');
 }
-
