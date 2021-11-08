@@ -17,8 +17,7 @@ var body = document.getElementsByClassName('body')
 function darkMode() {
     var element = document.body;
     var content = document.getElementById("status-mode");
-    element.className = "dark-mode";
-    content.innerText = "Modo: Escuro";
+    element.className = "dark-mode";xt = "Modo: Escuro"xt = "Modo: Escuro";
 }
 
 function lightMode() {
@@ -35,8 +34,11 @@ function mostrarValor() {
 const buttonPersonalizado = document.getElementById('aset')
 
 function PersonalizarCor() {
-    const buttonPersonalizado = document.getElementById('aset')
+    cons
+ntById('aset')
 
-    buttonPersonalizado.style.backgroundColor='black';
+    buttonPersonalizfunction startLoading() {
+  let loadingBar = document.querySelector('.loadingBar');
+  loadingBar;')ado.style.backgroundColor='black';
 }
 
