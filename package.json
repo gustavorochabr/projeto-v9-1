@@ -1,0 +1,28 @@
+{
+  "name": "projeto-v9-1",
+  "version": "1.0.0",
+  "description": "Uma nova rede social inovadora",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VyperiumVictor13/projeto-v9.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VyperiumVictor13/projeto-v9/issues"
+  },
+  "homepage": "https://github.com/VyperiumVictor13/projeto-v9#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "firebase": "^9.3.0",
+    "html": "^1.0.0"
+  }
+}
