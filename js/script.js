@@ -40,4 +40,4 @@ ntById('aset');
 function startLoading() {
   let loadingBar = document.querySelector('.loadingBar');
   loadingBar.setAttribute('id', 'play-animation');
-}
+} //cu
