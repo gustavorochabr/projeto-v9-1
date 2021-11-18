@@ -12,12 +12,19 @@ function Testes() {
 var body = document.getElementsByClassName('body')
 
 
+function criarPost(legenda, foto) {
 
+    var localLegendaPost = document.getElementById('legenda-post')
+
+    localLegendaPost.innerHTML('Slv ksks')
+    
+}
 
 function darkMode() {
     var element = document.body;
     var content = document.getElementById("status-mode");
-    element.className = "dark-mode"; xt = "Modo: Escuro";
+    element.className = "dark-mode";
+    content.innerText = "Modo: Escuro";
 }
 
 function lightMode() {
@@ -34,10 +41,8 @@ function mostrarValor() {
 const buttonPersonalizado = document.getElementById('aset')
 
 function PersonalizarCor() {
-    cons
-ntById('aset');
+    const buttonPersonalizado = document.getElementById('aset')
 
-function startLoading() {
-  let loadingBar = document.querySelector('.loadingBar');
-  loadingBar.setAttribute('id', 'play-animation');
-} //cu
+    buttonPersonalizado.style.backgroundColor='black';
+}
+
