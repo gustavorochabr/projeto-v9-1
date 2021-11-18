@@ -36,6 +36,23 @@ body::-webkit-scrollbar {
     border-color: transparent;
 }
 
+.posts{
+    max-width: 550px;
+    margin-left: 100px;
+}
+
+.info-post{
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.perfil-post{
+    background-color: #0000ff;
+    max-width: 150px;
+}
 
 
 .light-mode input[type='submit']:hover{
@@ -208,6 +225,7 @@ figure {
     width: 100%;
     margin: 15px 15px;
     top: 0;
+    position: absolute;
 }
 #patrocinadores ul{
     list-style: none;
@@ -218,6 +236,8 @@ figure {
     text-transform:unset;
     color:#0095f6;
 }
+
+
 
 #create-post{
     border-radius: 10px;
